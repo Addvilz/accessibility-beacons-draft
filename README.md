@@ -2,7 +2,7 @@
 
 ## Current status
 
-Public RFC and discussion here on GitHub. Pull requests, comments and issues are welcome. I am not an accessibility expert - help and advice with that aspect of the specification would be greatly appreciated.
+Withdrawn in favor of competing [Media Queries Level 5](https://drafts.csswg.org/mediaqueries-5/) - it covers nearly all the features proposed by WAB, and despite lacking any privacy controls to speak of, seems to be the preferred choice by the community at large.
 
 ## Abstract
 
@@ -21,6 +21,7 @@ This standard aims to make web accessibility commonplace and frictionless to bot
 1. Define user workflow for enabling the Accessibility Beacons API;
 2. Develop a simple, common standard API;
 3. Propose and standardize the specification (WHATWG).
+4. Current client API is vulnerable to timing attacks allowing actors to fingerprint the device based on WAB enabled/disabled state. This needs to be addressed.
 
 ## Conformance
 
